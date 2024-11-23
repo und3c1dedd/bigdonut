@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+img {
+  width: 350px;
+  height: auto;
+}
+
+/* HOME FIRST SECTION*/
+
+ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  font-weight: bold;
+  text-align: center; 
+  padding: 30px; 
+}
+
+li a {
+  color: #F8398F;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  float: left;
+  width: 50px;
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.first {
+  background-image: url(images/background.png);
+            width: 100%;
+}
+
+.container9 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.container9 img{
+  width: 570px;
+}
+        
+.text {
+  padding-right: 50px;
+  margin-left: 80px;
+}
+        
+.text h1 {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+        
+.text p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+        
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #f8398f;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all .5s ease;
+  transform: scale(1);
+}
+
+.explore-btn:hover {
+  transform: scale(1.05) perspective(1px);
+}
+
+/* LINK */
+
+.links {
+  text-decoration: none;
+}
+        
+/* HOME SECOND SECTION */
+
+.second {
+  background-color: white;
+}
+
+.deals {
+  margin-bottom: 30px;
+}
+.deals h1{
+  color: #f8398f;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.hot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hot img {
+  width: 25%;
+  border-radius: 40px;
+}
+
+/* HOME THIRD SECTION */
+
+.news img {
+  margin-top: 10px;
+  width: 100%;
+  height: 380px;
+}
+
+.news h1{
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+  color: #F8398F;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+
+}
+
+
+/* MENU PAGE */
+
+.menubg {
+  background-image: url(images/blue_bg.png);
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px;
+}
+
+.image1 {
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.image1 img {
+  width: 100%;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description1 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+ 
+ /* DONUTS MENU */
+ 
+.headDonut {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px;
+  width: 60%;
+}
+  
+.photo {
+  width: 32%;
+  margin-bottom: 20px;
+  text-align: center;
+  }
+
+.photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 30px;
+}
+  
+.dmenu {
+  background-color: #f8398f;
+}
+  
+.p2 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* BEVERAGES MENU */
+
+.headBeverage {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bmenu {
+  background-color: #f8398f;
+}
+
+.gallery2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: w;
+}
+
+.photo2 {
+  width: 200px;
+  text-align: center;
+}
+
+.photo2 img {
+  width: 180px;
+  height: auto;
+  border-radius: 30px;
+}
+
+.p3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* DONUTS VARIANT */
+
+.donut {
+	width: 600px; 
+	height: 600px;
+	border-radius: 20px;
+	display: block; margin: 30px;
+	float: right;
+}
+
+.donut_title{
+	color: white;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: right;
+	padding-top: 40px;
+}
+
+.donut_desc{
+	color: white;
+	text-align: justify;
+	text-indent: 1.5em;
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+/* ABOUT US PAGE */
+
+.bannerAbout {
+  padding-top: 15px;
+}
+
+.about img {
+  width: 100%;
+}
+
+.about h1{
+	color: #f8398f;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.about p{
+	color: #f8398f;
+	font-size: 18px;
+	text-align: center;
+	margin: 60px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.about2 {
+  margin-top: 20px;
+}
+.about2 h1{
+	color: #f8398f;
+	font-size: 30px;
+	text-align: center;
+}
+
+.about2 p {
+  color: #f8398f;
+	font-size: 18px;
+	text-align: center;
+	margin: 60px;
+	margin-top: 10px;
+}
+.osimg{
+	border: 3px solid;
+	border-color: #F8398F;
+	border-radius: 1000px;
+	width:300px;
+	display: block; margin: 30px;
+	float: left;
+}
+
+.osceo img{
+	border: 3px solid;
+	border-color: #F8398F;
+	border-radius: 1000px;
+	width:200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+
+.osceo h1{
+	color: #F8398F;
+	font-size: 20px;
+	text-align: center;
+}
+
+.osceo p{
+  color: #F8398F;
+	font-size: 15px;
+	text-align: center;
+}
+
+.osp2{
+	color: #F8398F;
+	font-size: 20px;
+	text-align: left;
+}
+	
+/* MEMBERS */
+
+.members {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.km {
+  font-size: 30px;
+  text-align: center;
+  color: #f8398f;
+  padding-bottom: 25px
+}
+
+.pics {
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+}
+
+.pics img {
+  width: 70%;
+  border-radius: 1000px;
+  border: 3px solid;
+	border-color: #F8398F;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #F8398F;
+}
+
+/* VISIT US */
+
+.visit {
+  background-color: #F8398F;
+}
+
+.socmeds {
+  padding-top: 100px;
+}
+
+.socmeds h1{
+  color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.socmeds p {
+  color: white;
+	font-size: 15px;
+	text-align: center;
+	margin: 100px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.icon img {
+  width: 30px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  margin: 20px;
+}
+
+.footer p{
+  color: black; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+/* HOVERS */
+
+.open {
+  background-color: #d7d7d7;
+  border-radius: 2px;
+  transition: all .5s ease;
+  transform: scale(1);
+}
+
+.open:hover {
+  transform: scale(1.05) perspective(1px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* CONTACT PAGE */
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  color: #f8398f;
+}
+
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.reach {
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.reach img {
+  width: 30px;
+}
+
+.mark2 {
+  display: block;
+  margin: auto;
+}
+
+.reach2 img{
+  width: 50px;
+  padding-top: 30px;
+}
+
+.reach2{
+  text-align: center;
+}
+
+.text2 {
+  padding-top: 10px;
+  color: #f8398f;
+  padding-bottom: 40px;
+  text-decoration: none;
+  
+}
+
+.social {
+  background-color: #f8398f;
+}
+
+.social h1 {
+  color: white;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
